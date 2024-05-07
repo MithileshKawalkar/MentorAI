@@ -75,11 +75,13 @@
 
 .sendBtn {
   background: url(./icons/send.svg) center center no-repeat;
+  background-color: #0d9488;
 }
 
 .sendBtn:hover {
-  background-image: url(./icons/send-active.svg);
-  background-color: #EBF5FF;
+  background-image: url(./icons/send.svg);
+  background-color: #07655d;
+  color: #0d9488;
 }
 
 .textArea:focus+div .count {
